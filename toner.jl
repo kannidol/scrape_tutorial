@@ -1,0 +1,11 @@
+{"url": "https://www.hq-patronen.de/infopopup.aspx?infoId=8", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/info/bewertungen.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/kontakt.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/b2b-de/default.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/info/fragen-und-antworten.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/kategorien/telefone/default.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/kategorien/buerobedarf/pc-zubehoer/maeuse-und-tastaturen/default.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/xerox/xerox-phaser/xerox-phaser-7760-dnm.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/affiliate-programm.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/xerox/xerox-phaser/xerox-phaser-7760-dx.aspx", "article": null, "price": null}
+{"url": "https://www.hq-patronen.de/samsung/samsung-clx/samsung-clx-3305-w.aspx", "article": null, "price": null}
