@@ -9,7 +9,7 @@ class TonerSpider(CrawlSpider):
     name = "toner"
     allowed_domains = ['hq-patronen.de']
     start_urls = [
-                    "https://www.hq-patronen.de/toner/original-xerox-108r00713-bildtrommel.aspx",
+                    "https://www.hq-patronen.de/p/original-xerox-108r00713-bildtrommel",
 
                 ]
     rules = [
@@ -19,7 +19,7 @@ class TonerSpider(CrawlSpider):
 
     def parse_item(self, response):
         item = TonerItem()
-        item['article'] = response.xpath('//span[@id="cphMain_metaUrl_Id"]/meta[@itemprop="productID"]/@content').extract_first()
-        item['price'] = response.xpath('//div[@itemprop="offers"]/meta[@itemprop="price"]/@content').extract_first()
+        item['article'] = response.xpath('//div[@class='add-to-cart']/button/@data-sku/text()').extract_first()
+        item['price'] = response.xpath('//b[@class='js-update-price']/text()').extract_first()
         item['url'] = response.url
         return item
