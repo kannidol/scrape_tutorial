@@ -13,8 +13,8 @@ class TonerSpider(CrawlSpider):
 
                 ]
     rules = [
-                Rule(LinkExtractor(allow=('/toner/.*', )), callback='parse_item', follow=True),
-                Rule(LinkExtractor(allow=('hq-patronen.de/(?!toner)', )) ),
+                Rule(LinkExtractor(allow=('/p/.*', )), callback='parse_item', follow=True),
+                Rule(LinkExtractor(allow=('hq-patronen.de/(?!p)', )) ),
             ]
 
     def parse_item(self, response):
