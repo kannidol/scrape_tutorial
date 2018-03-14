@@ -19,7 +19,7 @@ class TonerSpider(CrawlSpider):
 
     def parse_item(self, response):
         item = TonerItem()
-        item['article'] = response.xpath('//div[@class="add-to-cart"]/button/@data-sku/text()').extract_first()
-        item['price'] = response.xpath('//b[@class="js-update-price"]/text()').extract_first()
+        item['article'] = response.xpath('//button/@data-sku').extract_first()
+        item['price'] = response.xpath('//span[@class="amount"]/text()').extract_first()
         item['url'] = response.url
         return item
